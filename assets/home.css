@@ -544,3 +544,169 @@ html{
     transition: all linear 0.3s;
     cursor: pointer;
 }
+
+.banner-content{
+    padding-top: 8rem;
+    text-align: center;
+}
+
+.banner-content img{
+    width: 95rem;
+    height: 29rem;
+}
+
+/* slick */
+.slick-slider{
+    padding-top: 5rem;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+.slick-slider img{
+    width: 50rem;
+    height: 36.6rem;
+}
+
+.slick-slider .slick-item{
+    padding: 0 1rem 0 1rem;
+    height: 44rem;
+}
+
+.slick-item.slick-center .content-item{
+    display: block;
+}
+
+.slick-slider .content-item{
+    padding-top: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: none;
+}
+
+.slick-item p{
+    margin-bottom: 0;
+}
+
+.pull-left, 
+.pull-right{
+    border: none;
+    font-size: 2rem;
+    background-color: #fff;
+    position: absolute;
+}
+
+.pull-left{
+    bottom: -0.2rem;
+    left: 10rem;
+}
+
+.pull-right{
+    right: 10rem;
+    bottom: -0.2rem;
+}
+
+/* banner bottom */
+.banner-bottom{
+    margin-top: 5rem;
+    text-align: center;
+}
+.banner-bottom .banner-img{
+    display: inline;
+    width: calc(100%/3);
+    padding-left: 3rem;
+}
+
+.banner-bottom .banner-img:first-child{
+    padding-left: 0;
+}
+
+.banner-bottom .banner-img img{
+    width: 30.8rem;
+    height: 15.9rem;
+}
+
+.join-app{
+    margin-top: 5rem;
+    background-color: var(--background-option-1);
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    height: 10rem;  
+}
+
+.join-app .join-btn{
+    height: 5rem;
+    margin: auto 0 auto 5rem;
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: var(--text-color);
+    border-radius: 9999px;
+    transition: linear 0.3s;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.join-app .join-btn:hover{
+    opacity: 0.9;
+}
+
+.join-app .join-btn a{
+    line-height: 3rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: inherit;
+    font-weight: bolder;
+}
+
+/* footer */
+footer{
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+footer a{
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+
+footer a:before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    bottom: -1px;
+    background-color:#fff;
+    border-radius: 50px;
+    width: 0;
+    transition: width 0.2s linear;
+}
+
+footer a:hover::before{
+    width: 100%;
+}
+footer a:hover{
+    color: #fff;
+}
+
+footer .menu{
+    text-transform: uppercase;
+
+}
+
+footer .menu a{
+    margin: 0 1rem;
+}
+
+.ftco-animate{
+    display: inline;
+    list-style: none;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.copy-right a{
+    color: var(--text-color);
+    font-weight: bolder;
+}

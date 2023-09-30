@@ -1,14 +1,14 @@
-const $ = document.querySelector.bind(document)
-const $$ = document.querySelectorAll.bind(document)
+const $$ = document.querySelector.bind(document)
+const $$$ = document.querySelectorAll.bind(document)
 
-const listContainNew = $('.product-list-new')
-const listContainBest = $('.product-list-best')
+const listContainNew = $$('.product-list-new')
+const listContainBest = $$('.product-list-best')
 
-const previousNew = $('.section-new .prev')
-const nextNew = $('.section-new .next')
+const previousNew = $$('.section-new .prev')
+const nextNew = $$('.section-new .next')
 
-const previousBest = $('.section-best-seller .prev')
-const nextBest = $('.section-best-seller .next')
+const previousBest = $$('.section-best-seller .prev')
+const nextBest = $$('.section-best-seller .next')
 
 previousNew.addEventListener('click', () => {
     listContainNew.scrollBy({
@@ -37,3 +37,15 @@ nextBest.addEventListener('click', () => {
         behavior: 'smooth',
     });
 });
+
+$(document).ready(function(){
+    $('.slick-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        centerMode: true,
+        variableWidth: true,
+        prevArrow:`<button type='button' class='slick-prev pull-left'><i class="fa-solid fa-chevron-left"></i></button>`,
+        nextArrow:`<button type='button' class='slick-next pull-right'><i class="fa-solid fa-chevron-right"></i></button>`
+    });
+  });
