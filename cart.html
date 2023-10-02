@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/home.css">
+    <link rel="stylesheet" href="assets/cart.css">
+</head>
+<body>
+    <div class="header">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="#">FREE EBOOK EXCLUSIVELY FOR B&N PREMIUM MEMBERS</a>
+            </div>
+            <div class="carousel-item">
+              <a href="#">FREE EBOOK EXCLUSIVELY FOR B&N PREMIUM MEMBERS</a>
+            </div>
+            <div class="carousel-item">
+              <a href="#">FREE EBOOK EXCLUSIVELY FOR B&N PREMIUM MEMBERS</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="mainNav">
+          <div class="utility-bar">
+            <ul class="content-start">
+              <li class="nav-item"><a href="#">STORES & EVENTS</a></li>
+              <li class="nav-item"><a href="#">BLOG & PODCAST</a></li>
+              <li class="nav-item"><a href="#">MEMBERSHIP</a></li>
+              <li class="nav-item"><a href="#">COUPONS & DEALS</a></li>
+              <li class="nav-item"><a href="#">BESTSELLERS</a></li>
+              <li class="nav-item"><a href="#">GIFT CARDS</a></li>
+            </ul>
+  
+            <ul class="content-end">
+              <li class="account">
+              <a href="#">
+                <span class="user-icon"><i class="fa-regular fa-circle-user"></i></span>
+                My Account
+                <span class="up-icon"><i class="fa-solid fa-angle-up"></i></span>
+                <span class="down-icon"><i class="fa-solid fa-angle-down"></i></span>
+              </a>
+              <ul class="dropdown-account">
+                <li class="sign-in-btn"><a href="#">Sign In</a></li>
+                <li class="create-account-link"><a href="#">Create an Account</a></li>
+                <li class="dropdown-account-item"><a href="#">Manage Account</a></li>
+                <li class="dropdown-account-item"><a href="#">Order Status</a></li>
+                <li class="dropdown-account-item"><a href="#">Logout</a></li>
+              </ul>
+            </li>
+              <li class="wishlist"><a href="#">
+                <span class="wish-icon"><i class="fa-regular fa-heart"></i></span>
+                Wishlist
+              </a></li>
+            </ul>
+          </div>
+  
+          <div class="logo-bar">
+            <div class="logo"><a  href="#"></a></div>
+            <form action="">
+              <input class="text-box" type="text" name="" id="" placeholder="Type here to search your book">
+              <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <ul class="cart-box">
+              <li class="cart-icon"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+              <li class="qty-in-cart">2</li>
+            </ul>
+          </div>
+  
+          <div class="navbar">
+            <ul>
+              <li class="nav-item"><a href="#">Home</a></li>
+              <li class="nav-item"><a href="#">Genre</a>
+                <div class="drop-menu">
+                  <ul class="sub-menu">
+                    <li class="drop-item"><a href="#">Computer & Technology</a></li>
+                    <li class="drop-item"><a href="#">Cook & Wine</a></li>
+                    <li class="drop-item"><a href="#">Crafts & Hobbies</a></li>
+                    <li class="drop-item"><a href="#">Education</a></li>
+                    <li class="drop-item"><a href="#">Family & Relationship</a></li>
+                    <li class="drop-item"><a href="#">Fiction</a></li>
+                  </ul>
+                  <ul class="sub-menu">
+                    <li class="drop-item"><a href="#">Health & Fitness</a></li>
+                    <li class="drop-item"><a href="#">History</a></li>
+                    <li class="drop-item"><a href="#">Home & Garden</a></li>
+                    <li class="drop-item"><a href="#">Horror</a></li>
+                    <li class="drop-item"><a href="#">Business</a></li>
+                    <li class="drop-item"><a href="#">Children's</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item"><a href="#">New Books</a></li>
+              <li class="nav-item"><a href="#">Best Sellers</a></li>
+              <li class="nav-item"><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <div class="cart-content">
+        <div class="title"><h1>Shopping Cart</h1></div>
+        <div class="cart-list">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Item</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Price</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                        <div class="item-img-box"><img src="assets/books/9781250776518.webp" alt=""></div>
+                        <div class="item-content">
+                            <h3 class="item-title">Devil Makes Three</h3>
+                            <p class="-item-author">Ben Fountain</p>
+                            <p class="item-format">Hardcover</p>
+                            <div class="status">
+                                <p class="available"><i class="fa-solid fa-circle-check"></i>Available</p>
+                                <p class="unavailable"><i class="fa-solid fa-exclamation"></i>Unavailable</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item-qty">
+                            <input type="number" value="1" min="1" max="9999">
+                        </div>
+                    </td>
+                    <td><p class="item-price">29.75</p></td>
+                    <td><a class="remove-link" href="#"><i class="fa-solid fa-trash"></i></a></td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <div class="item-img-box"><img src="assets/books/9781250776518.webp" alt=""></div>
+                        <div class="item-content">
+                            <h3 class="item-title">Devil Makes Three</h3>
+                            <p class="-item-author">Ben Fountain</p>
+                            <p class="item-format">Hardcover</p>
+                            <div class="status">
+                                <p class="available"><i class="fa-solid fa-circle-check"></i>Available</p>
+                                <p class="unavailable"><i class="fa-solid fa-exclamation"></i>Unavailable</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item-qty">
+                            <input type="number" value="1" min="1" max="9999">
+                        </div>
+                    </td>
+                    <td><p class="item-price">29.75</p></td>
+                    <td><a class="remove-link" href="#"><i class="fa-solid fa-trash"></i></a></td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <div class="item-img-box"><img src="assets/books/9781250776518.webp" alt=""></div>
+                        <div class="item-content">
+                            <h3 class="item-title">Devil Makes Three</h3>
+                            <p class="-item-author">Ben Fountain</p>
+                            <p class="item-format">Hardcover</p>
+                            <div class="status">
+                                <p class="available"><i class="fa-solid fa-circle-check"></i>Available</p>
+                                <p class="unavailable"><i class="fa-solid fa-exclamation"></i>Unavailable</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="item-qty">
+                            <input type="number" value="1" min="1" max="9999">
+                        </div>
+                    </td>
+                    <td><p class="item-price">29.75</p></td>
+                    <td><a class="remove-link" href="#"><i class="fa-solid fa-trash"></i></a></td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="cart-action-box">
+            <div class="action-cart-btn">
+                <a href="#" class="return-shop">Continue shopping</a>
+                <a href="#">Empty cart</a>
+            </div>
+            <div class="checkout-action">
+                <p>Total: <b>29.75</b></p>
+                <a href="https://google.com" target="_blank">Checkout</a>
+            </div>
+        </div>
+    </div>
+
+      <footer class="footer-07">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center mt-5">
+                    <h2 class="footer-heading"><a href="#" class="logo">FptBook.com</a></h2>
+                    <p class="menu pt-3">
+                        <a href="#">Home</a>
+                        <a href="#">Agent</a>
+                        <a href="#">About</a>
+                        <a href="#">Listing</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contact</a>
+                    </p>
+                    <ul class="ftco-footer-social p-0">
+          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="ion-logo-twitter"><i class="fa-brands fa-twitter"></i></span></a></li>
+          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="ion-logo-facebook"><i class="fa-brands fa-facebook"></i></span></a></li>
+          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="ion-logo-instagram"><i class="fa-brands fa-instagram"></i></span></a></li>
+        </ul>
+                </div>
+            </div>
+            <div class="row mt-5 copy-right">
+                <div class="col-md-12 text-center">
+                    <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | The website is responsible by <a href="#" target="_blank">FptBook.com</a>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="cart.js"></script>
+</body>
+</html>
